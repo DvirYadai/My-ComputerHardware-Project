@@ -40,8 +40,8 @@
     </div>
 
     <!-- Main section includes information about hardware parts -->
+    <img src="/images/hardware-main-img.jpg" alt="hardware img" class="hardware-img">
     <div id="hardware-main">
-        <img src="images/hardware-img.png" alt="hardware img" class="hardware-img">
         <h2>What is a computer?</h2>
         <p>A computer is any machine that can be programmed to carry out a set of algorithms and arithmetic instructions. </p>
         <p>Of course, the computers we think of today are so much more than that—and I’m talking beyond just being machines used to play games and watch videos of cats on the internet!</p>
@@ -57,30 +57,40 @@
         <p>In terms of construction, each of these main components are attached to the motherboard and then put into a protective case—resembling the clean, polished look most of us are accustomed to seeing. </p>
         <p>Sure, most computers have their own distinct design - and different brands of hardware installed - but the components listed above are standard across all computers. </p>
         <p><strong>Important:</strong> A quick note before we dive into the details—I’m listing and talking about the different components of a computer. This is by no means intended to be an invitation to disassemble your computer, nor is it a set of instructions to do so. Without the proper knowledge, you can severely damage your computer, and importantly, doing so is unsafe. </p>
-        <h2>1. The motherboard</h2>
-        <p><em>What it is:</em> All components of a computer communicate through a circuit board called the motherboard, as was mentioned above. </p>
-        <p><em>What it does:</em> Think of the motherboard as the glue that holds everything else together.</p>
-        <p>The motherboard’s video card and Central Processing Unit are contained in an integrated (built-in) chipset, shown in the picture below:</p>
-        <img src="images/motherboard.jpg" alt="motherboard img">
-        <p>This is where input/output devices such as a keyboard, mouse, and speakers get plugged in.</p>
-        <h2>2. The Central Processing Unit (CPU)</h2>
-        <p><em>What it is:</em> The CPU is often called the "brain" of a computer, thanks to its direct plug connection to the motherboard, and communication with all of the computer’s other components.</p>
-        <p><em>What it does:</em> Whenever you write a line of code (in Python, Java, C++, or any other programming language), it's broken down into assembly language—which is a language that the processor can understand. It fetches, decodes, and executes these instructions.</p>
-        <p>And that’s where the CPU comes in—all the processes a computer handles are taken care of by the CPU.</p>
-        <img src="images/cpu.jpg" alt="cpu img">
-        <h2>3. The Graphics Processing Unit (GPU)</h2>
-        <p><em>What it is:</em> It's not uncommon to hear gamers obsess over the next new graphics card, as these graphic cards make it possible for computers to generate high-end visuals like those found in the many different types of video games.</p>
-        <p>In addition to video games, though, good graphics cards also come in handy for those who rely on images in order to execute their craft, like 3D modelers using resource-intensive software.</p>
-        <p><em>What it does:</em> Graphics cards often communicate directly with the display monitor, meaning a $1,000 graphics card won't be of much use if there isn't a high-end monitor connected to it.</p>
-        <img src="images/gpu.jpg" alt="gpu img">
-        <h2>4. Random Access Memory (RAM)</h2>
-        <p><em>What it is:</em> RAM, also known as volatile memory, stores data regarding frequently accessed programs and processes. (It's called volatile memory because it gets erased every time the computer restarts.)</p>
-        <p><em>What it does:</em> RAM helps programs and games start up and close quickly.</p>
-        <img src="images/ram.jpg" alt="ram img">
+        <div class="motherbourd-div">
+            <h2>1. The motherboard</h2>
+            <p><em>What it is:</em> All components of a computer communicate through a circuit board called the motherboard, as was mentioned above. </p>
+            <p><em>What it does:</em> Think of the motherboard as the glue that holds everything else together.</p>
+            <p>The motherboard’s video card and Central Processing Unit are contained in an integrated (built-in) chipset, shown in the picture below:</p>
+            <img src="images/motherboard.jpg" alt="motherboard img">
+            <p>This is where input/output devices such as a keyboard, mouse, and speakers get plugged in.</p>
+        </div>
+        <div class="cpu-div">
+            <h2>2. The Central Processing Unit (CPU)</h2>
+            <p><em>What it is:</em> The CPU is often called the "brain" of a computer, thanks to its direct plug connection to the motherboard, and communication with all of the computer’s other components.</p>
+            <p><em>What it does:</em> Whenever you write a line of code (in Python, Java, C++, or any other programming language), it's broken down into assembly language—which is a language that the processor can understand. It fetches, decodes, and executes these instructions.</p>
+            <p>And that’s where the CPU comes in—all the processes a computer handles are taken care of by the CPU.</p>
+            <img src="images/cpu.jpg" alt="cpu img">
+        </div>
+        <div class="gpu-div">
+            <h2>3. The Graphics Processing Unit (GPU)</h2>
+            <p><em>What it is:</em> It's not uncommon to hear gamers obsess over the next new graphics card, as these graphic cards make it possible for computers to generate high-end visuals like those found in the many different types of video games.</p>
+            <p>In addition to video games, though, good graphics cards also come in handy for those who rely on images in order to execute their craft, like 3D modelers using resource-intensive software.</p>
+            <p><em>What it does:</em> Graphics cards often communicate directly with the display monitor, meaning a $1,000 graphics card won't be of much use if there isn't a high-end monitor connected to it.</p>
+            <img src="images/gpu.jpg" alt="gpu img">
+        </div>
+        <div class="ram-div">
+            <h2>4. Random Access Memory (RAM)</h2>
+            <p><em>What it is:</em> RAM, also known as volatile memory, stores data regarding frequently accessed programs and processes. (It's called volatile memory because it gets erased every time the computer restarts.)</p>
+            <p><em>What it does:</em> RAM helps programs and games start up and close quickly.</p>
+            <img src="images/ram.jpg" alt="ram img">
+        </div>
+        <div class="storage-div">
         <h2>5. Storage</h2>
-        <p><em>What it is:</em> All computers need somewhere to store their data. Modern computers either use a Hard Disk Drive (HDD) or Solid State Drive (SSD).</p>
-        <p><em>What it does:</em> HDDs are made of an actual disk onto which data is stored. The disk is read by a mechanical arm. (HDDs are cheaper than SSDs, but are slowly becoming more and more obsolete.)</p>
-        <p>SSDs (think SIM cards) have no moving parts and are faster than a hard drive, because no time is spent waiting for a mechanical arm to find data on a physical location on the disk.</p>
+            <p><em>What it is:</em> All computers need somewhere to store their data. Modern computers either use a Hard Disk Drive (HDD) or Solid State Drive (SSD).</p>
+            <p><em>What it does:</em> HDDs are made of an actual disk onto which data is stored. The disk is read by a mechanical arm. (HDDs are cheaper than SSDs, but are slowly becoming more and more obsolete.)</p>
+            <p>SSDs (think SIM cards) have no moving parts and are faster than a hard drive, because no time is spent waiting for a mechanical arm to find data on a physical location on the disk.</p>
+        </div>
         <h2>Fun, right?</h2>
         <p>Some enjoy computers from the frontend, spending time on YouTube, shopping on eBay, and playing video games (and experiencing the benefits of doing so.). </p>
         <p>But for others, it’s the “how” that proves to be more intriguing! Taking computers apart and putting them back together, adding new hardware, troubleshooting hardware assembly, and booting them up (and crossing their fingers!) is all part of such intrigue. </p>

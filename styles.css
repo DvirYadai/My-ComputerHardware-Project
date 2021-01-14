@@ -44,6 +44,27 @@ body {
   color: black;
 }
 
+/* Style to main section in hardware.html */
+
+#hardware-main {
+  margin: 5rem auto;
+  text-align: left;
+  width: 60%;
+}
+
+.hardware-img {
+  width: 97vmin;
+  overflow: auto;
+}
+
+#hardware-main div {
+  margin: 3rem 0;
+}
+
+#hardware-main img {
+  width: 75vmin;
+}
+
 /* Style to footer section in all the pages */
 
 #footer {
