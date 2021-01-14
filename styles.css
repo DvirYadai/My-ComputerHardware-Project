@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-img {
+  width: 100vmin;
+  overflow: auto;
+}
+
+.headline {
+  margin-top: 5rem;
+}
+
+.headline h1 {
+  font-size: 7vmin;
+}
+
+.description h2 {
+  font-size: 3vmin;
+}
+
+.content {
+  margin-top: 5rem;
+  background-color: #e1f4f3;
+  padding: 5rem;
+  font-size: 5vmax 3vmin;
+}
+
+.table-of-contents {
+  display: inline-block;
+  text-align: left;
+}
+
+.table-link {
+  color: black;
+}
