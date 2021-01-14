@@ -9,6 +9,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Style to main section in index.html */
+
 .head-img {
   width: 100vmin;
   overflow: auto;
@@ -41,6 +43,8 @@ body {
 .table-link {
   color: black;
 }
+
+/* Style to footer section in all the pages */
 
 #footer {
   background-color: #706c61;
