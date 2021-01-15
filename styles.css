@@ -1,3 +1,9 @@
+:root {
+  --spacial-color: #e1f4f3;
+  --footer-color: #706c61;
+  --black-color: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +36,7 @@ body {
 
 .content {
   margin-top: 5rem;
-  background-color: #e1f4f3;
+  background-color: var(--spacial-color);
   padding: 5rem;
   font-size: 5vmax 3vmin;
 }
@@ -41,7 +47,7 @@ body {
 }
 
 .table-link {
-  color: black;
+  color: var(--black-color);
 }
 
 /* Style to main section in hardware.html */
@@ -113,7 +119,7 @@ body {
 /* Style to main section in contact.html */
 
 #contact-main {
-  background-color: #e1f4f3;
+  background-color: var(--spacial-color);
   padding: 5rem;
 }
 
@@ -141,24 +147,24 @@ input[type="submit"] {
   width: 20vmin;
   padding: 0.5rem;
   border-radius: 7px;
-  border: 1px solid black;
+  border: 1px solid var(--black-color);
 }
 
 input[type="submit"]:hover {
-  background-color: black;
+  background-color: var(--black-color);
   color: white;
 }
 
 /* Style to footer section in all the pages */
 
 #footer {
-  background-color: #706c61;
+  background-color: var(--footer-color);
   padding: 5rem 0;
   text-align: center;
 }
 
 .get-in-touch {
-  color: #e1f4f3;
+  color: var(--spacial-color);
   margin-bottom: 1.5rem;
 }
 
@@ -190,7 +196,7 @@ input[type="submit"]:hover {
 .footer-link {
   margin-left: 2rem;
   text-decoration: none;
-  color: #e1f4f3;
+  color: var(--spacial-color);
 }
 
 .footer-link:hover {
