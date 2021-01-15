@@ -65,6 +65,51 @@ body {
   width: 75vmin;
 }
 
+/* Style to main section in store.html */
+
+.fa-shopping-cart {
+  margin: 5rem auto;
+  font-size: 20vmin;
+  animation: rotate 3s infinite;
+  animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+#store-main {
+  width: 60%;
+  margin: 0 auto 5rem auto;
+}
+
+#store-main h2 {
+  margin: 2rem auto;
+}
+
+#store-main hr {
+  margin: 5rem auto;
+  border-top: 10px dotted gray;
+  width: 8%;
+  background-color: white;
+}
+
+.shopping-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px lightgray solid;
+  padding: 2rem 2rem;
+}
+
 /* Style to footer section in all the pages */
 
 #footer {
